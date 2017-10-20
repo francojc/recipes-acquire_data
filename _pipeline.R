@@ -41,7 +41,7 @@ source(file = "code/generate_reports.R")
 # LOG ---------------------------------------------------------------------
 
 # Log information on the current configuration of the system
-sink(file = "log/session_info.txt")
+sink(file = "log/session_info.log")
 sessionInfo()
 sink()
 
